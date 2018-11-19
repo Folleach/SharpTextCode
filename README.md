@@ -1,5 +1,13 @@
 # SharpTextCode
 **Bot for social network VKontakte. Which executes the C# code received in the message.**
+
+<details><summary>Screenshots</summary><p>
+
+![Screenshot1](https://github.com/Folleach/SharpTextCode/raw/master/Images/Screenshot1.png)
+![Screenshot2](https://github.com/Folleach/SharpTextCode/raw/master/Images/Screenshot2.png)
+![Screenshot3](https://github.com/Folleach/SharpTextCode/raw/master/Images/Screenshot3.png)
+</p></details>
+
 ### Install
 1. Create a group in VKontakte.
 2. Create access key (Token) with access to messages in the group.
