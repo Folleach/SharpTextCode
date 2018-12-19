@@ -15,19 +15,10 @@
     - API version: 5.87
     - URL: {Your domain name}/api/code
 4. Clone this repository.
-5. Edit file "SharpTextCode/Controllers/CodeController.cs".
+5. Edit file "SharpTextCode/Config.cs".
     - Edit constant "Token": Created access key from item 2.
     - Edit constant "VerifyCode": The generated string should return the server.
-    - Add your page id to whitelist array.
-    ```cs
-    static void InitializeWhiteList()
-    {
-        WhiteList = new List<uint>
-        {
-            123, //Added id 123
-        };
-    }
-    ```
+    - Edit constant "AdministratorID": ID of your page in VK.
 6. Publish code on the server.
 7. Done!
 ### Commands
@@ -93,6 +84,16 @@
   ```
   WR 1234
   ```
+- **TG**<br>
+  View all workers thread.<br>
+- **TK**<br>
+  Kill thread on ID.<br>
+  **Example:**
+  ```
+  TK 123
+  ```
+- **System**<br>
+  View system information.<br>
 
 I made this program just to play.
 ### Special thanks:
