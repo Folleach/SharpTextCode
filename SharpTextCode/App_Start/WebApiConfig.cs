@@ -6,6 +6,8 @@ namespace SharpTextCode
     {
         public static void Register(HttpConfiguration config)
         {
+            Config.Initialize();
+
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
